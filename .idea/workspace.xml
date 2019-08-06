@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b44ba819-057f-42ee-9e93-13e6b0864038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/profileForm.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/faq.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/faq.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.phpstorm.meta.php" beforeDir="false" afterPath="$PROJECT_DIR$/.phpstorm.meta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_ide_helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/_ide_helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,17 +60,6 @@
       </path>
     </expand>
     <select />
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Tests\Unit\App\User</find>
-      <find>utf8</find>
-      <find>client_encoding</find>
-      <find>utf</find>
-      <find>connection.php</find>
-      <find>DatabaseManager.php</find>
-      <find>scripts</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -168,6 +161,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
       <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
       <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
     </include_path>
   </component>
   <component name="ProjectId" id="1P1xCLQwBaMjuSbC9i1YlVCjgSL" />
@@ -224,7 +218,7 @@
       <workItem from="1564967635269" duration="2273000" />
       <workItem from="1565054764263" duration="202000" />
       <workItem from="1565055288970" duration="66000" />
-      <workItem from="1565055385265" duration="647000" />
+      <workItem from="1565055385265" duration="4044000" />
     </task>
     <task id="LOCAL-00001" summary="Task: Installed laravel setup and finished 1st video">
       <created>1564110944773</created>
@@ -324,7 +318,21 @@
       <option name="project" value="LOCAL" />
       <updated>1564971326683</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Task: modification of part 4">
+      <created>1565056078152</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1565056078152</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Task: modification of part 4">
+      <created>1565056088267</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1565056088267</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,6 +365,7 @@
     <MESSAGE value="task: added question database, seeder and test" />
     <MESSAGE value="task: added answers migrate, model and made answer seeder and added tests for user profile (cleanup), and answer test" />
     <MESSAGE value="Fix: Branding link to correctly direct logged user to their homepage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix: Branding link to correctly direct logged user to their homepage" />
+    <MESSAGE value="Task: modification of part 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task: modification of part 4" />
   </component>
 </project>
