@@ -6,6 +6,8 @@ use App\Answer;
 use App\Question;
 use Illuminate\Support\Facades\Auth;
 
+use Illuminate\Http\Request;
+
 class AnswerController extends Controller
 {
     public function __construct()
@@ -17,19 +19,16 @@ class AnswerController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    {
-        //
-    }
-
     /**
      * Show the form for creating a new resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create($question)
     {
-        //
+        $answer = new Answer;
+        $edit = FALSE;
+        return view('answerForm', ['answer' => $answer,'edit' => $edit, 'question' =>$question  ]);
     }
 
     /**
@@ -38,9 +37,25 @@ class AnswerController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(Request $request, $question)
     {
-        //
+
+        $input = $request->validate([
+            'body' => 'required|min:5',
+        ], [
+
+            'body.required' => 'Body is required',
+            'body.min' => 'Body must be at least 5 characters',
+
+        ]);
+        $input = request()->all();
+        $question = Question::find($question);
+        $Answer = new Answer($input);
+        $Answer->user()->associate(Auth::user());
+        $Answer->question()->associate($question);
+        $Answer->save();
+
+        return redirect()->route('questions.show',['question_id' => $question->id])->with('message', 'Saved');
     }
 
     /**
@@ -52,6 +67,7 @@ class AnswerController extends Controller
     public function show($question,  $answer)
     {
         $answer = Answer::find($answer);
+
         return view('answer')->with(['answer' => $answer, 'question' => $question]);
 
     }
@@ -62,9 +78,11 @@ class AnswerController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit($question,  $answer)
     {
-        //
+        $answer = Answer::find($answer);
+        $edit = TRUE;
+        return view('answerForm', ['answer' => $answer, 'edit' => $edit, 'question'=>$question ]);
     }
 
     /**
@@ -74,9 +92,23 @@ class AnswerController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, $question, $answer)
     {
-        //
+        $input = $request->validate([
+            'body' => 'required|min:5',
+        ], [
+
+            'body.required' => 'Body is required',
+            'body.min' => 'Body must be at least 5 characters',
+
+        ]);
+
+        $answer = Answer::find($answer);
+        $answer->body = $request->body;
+        $answer->save();
+
+        return redirect()->route('answers.show',['question_id' => $question, 'answer_id' => $answer])->with('message', 'Updated');
+
     }
 
     /**
@@ -85,8 +117,12 @@ class AnswerController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy($question, $answer)
     {
-        //
+        $answer = Answer::find($answer);
+
+        $answer->delete();
+        return redirect()->route('questions.show',['question_id' => $question])->with('message', 'Delete');
+
     }
 }
