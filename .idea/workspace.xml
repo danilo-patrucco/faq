@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b44ba819-057f-42ee-9e93-13e6b0864038" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/faq.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/faq.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="b44ba819-057f-42ee-9e93-13e6b0864038" name="Default Changelist" comment="Fix : fixed the profile routing issue by adding correct routes to the web.php file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpstorm.meta.php" beforeDir="false" afterPath="$PROJECT_DIR$/.phpstorm.meta.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_ide_helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/_ide_helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/profile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -218,7 +211,8 @@
       <workItem from="1564967635269" duration="2273000" />
       <workItem from="1565054764263" duration="202000" />
       <workItem from="1565055288970" duration="66000" />
-      <workItem from="1565055385265" duration="4044000" />
+      <workItem from="1565055385265" duration="4406000" />
+      <workItem from="1565141302677" duration="891000" />
     </task>
     <task id="LOCAL-00001" summary="Task: Installed laravel setup and finished 1st video">
       <created>1564110944773</created>
@@ -332,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565056088267</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Fix : fixed the profile routing issue by adding correct routes to the web.php file">
+      <created>1565061993717</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1565061993717</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,6 +367,7 @@
     <MESSAGE value="task: added answers migrate, model and made answer seeder and added tests for user profile (cleanup), and answer test" />
     <MESSAGE value="Fix: Branding link to correctly direct logged user to their homepage" />
     <MESSAGE value="Task: modification of part 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task: modification of part 4" />
+    <MESSAGE value="Fix : fixed the profile routing issue by adding correct routes to the web.php file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix : fixed the profile routing issue by adding correct routes to the web.php file" />
   </component>
 </project>
