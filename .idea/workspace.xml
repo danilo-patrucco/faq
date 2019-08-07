@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b44ba819-057f-42ee-9e93-13e6b0864038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/flash/error.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/flash/messages.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/flash/status.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/answerForm.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/questionForm.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/profile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/QuestionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/QuestionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/question.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/question.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
