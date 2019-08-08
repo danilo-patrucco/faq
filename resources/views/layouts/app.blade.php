@@ -35,7 +35,9 @@
                     Home
                 </a>
             @endguest
-
+                <a class="navbar-brand" href="{{ route('readme') }}">
+                    Read me
+                </a>
 
 
 
