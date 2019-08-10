@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b44ba819-057f-42ee-9e93-13e6b0864038" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AnswerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AnswerController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/question.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/question.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -228,7 +225,7 @@
       <workItem from="1565055288970" duration="66000" />
       <workItem from="1565055385265" duration="4406000" />
       <workItem from="1565141302677" duration="891000" />
-      <workItem from="1565398380527" duration="2947000" />
+      <workItem from="1565398380527" duration="3121000" />
     </task>
     <task id="LOCAL-00001" summary="Task: Installed laravel setup and finished 1st video">
       <created>1564110944773</created>
@@ -398,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565401090848</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="task : modified controller and route for the like button">
+      <created>1565401694045</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1565401694045</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,6 +444,7 @@
     <MESSAGE value="task : added to the answer and question table the like field to verify if the user likes the post" />
     <MESSAGE value="Fix:removed the field from the question table, it was not needed." />
     <MESSAGE value="Task : Created the like button and added it to the answer box" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task : Created the like button and added it to the answer box" />
+    <MESSAGE value="task : modified controller and route for the like button" />
+    <option name="LAST_COMMIT_MESSAGE" value="task : modified controller and route for the like button" />
   </component>
 </project>
