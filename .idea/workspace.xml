@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b44ba819-057f-42ee-9e93-13e6b0864038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/readme.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_01_011635_create_questions_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_08_01_011635_create_questions_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_01_015053_create_answers_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_08_01_015053_create_answers_table.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +58,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="part_4_answer_question" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -203,7 +201,22 @@
     <option name="allServicesViewState">
       <serviceView>
         <treeState>
-          <expand />
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@649821de" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@649821de" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@2fd4ee80" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@649821de" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@47296875" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
           <select />
         </treeState>
       </serviceView>
@@ -229,6 +242,7 @@
       <workItem from="1565055288970" duration="66000" />
       <workItem from="1565055385265" duration="4406000" />
       <workItem from="1565141302677" duration="891000" />
+      <workItem from="1565398380527" duration="1133000" />
     </task>
     <task id="LOCAL-00001" summary="Task: Installed laravel setup and finished 1st video">
       <created>1564110944773</created>
@@ -370,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565146855349</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Task: added redirect to raw readme on Github">
+      <created>1565229241972</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1565229241972</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -408,6 +429,7 @@
     <MESSAGE value="Fix : web.php file had extra line of codes that made it unusable by heroku" />
     <MESSAGE value="Task : Question Edit, delete and add created" />
     <MESSAGE value="Task : added answer form and added delete option to the answer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task : added answer form and added delete option to the answer" />
+    <MESSAGE value="Task: added redirect to raw readme on Github" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task: added redirect to raw readme on Github" />
   </component>
 </project>
