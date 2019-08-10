@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+
     <div class="container">
         <div class="row ">
             <div class="col-md-8">
@@ -43,7 +44,7 @@
                                         View
                                     </a>
                                         <button onclick="actOnPushB(event);" data-id="{{ $answer->id }}">Like</button>
-                                        <span id="likes-count-{{ $answer->id }}">{{ $answer->likes_count }}</span>
+
 
                                 </div>
                             </div>
@@ -62,4 +63,26 @@
     </div>
 
 @endsection
+
+@section('js')
+    <script>
+
+        var toggleButtonText = {
+            Like: function(button) {
+                button.textContent = "Unlike";
+            },
+
+            Unlike: function(button) {
+                button.textContent = "Like";
+            }
+        };
+
+        var actOnPushB = function (event) {
+            var action = event.target.textContent;
+            toggleButtonText[action](event.target);
+        };
+
+    </script>
+@endsection
+
 

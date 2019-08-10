@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b44ba819-057f-42ee-9e93-13e6b0864038" name="Default Changelist" comment="">
+    <list default="true" id="b44ba819-057f-42ee-9e93-13e6b0864038" name="Default Changelist" comment="Task: added function to change the button from like to unlike in real time. Removed the count of likes (not needed for single user)">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a713b236-a00c-43b7-9917-7f4e04a42897.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a713b236-a00c-43b7-9917-7f4e04a42897.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.phpstorm.meta.php" beforeDir="false" afterPath="$PROJECT_DIR$/.phpstorm.meta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_ide_helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/_ide_helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/question.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/question.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -225,7 +232,7 @@
       <workItem from="1565055288970" duration="66000" />
       <workItem from="1565055385265" duration="4406000" />
       <workItem from="1565141302677" duration="891000" />
-      <workItem from="1565398380527" duration="3121000" />
+      <workItem from="1565398380527" duration="7475000" />
     </task>
     <task id="LOCAL-00001" summary="Task: Installed laravel setup and finished 1st video">
       <created>1564110944773</created>
@@ -402,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565401694045</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Fix: corrected a mistake in the route (linked the correct public function">
+      <created>1565401754145</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1565401754145</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,6 +459,8 @@
     <MESSAGE value="Fix:removed the field from the question table, it was not needed." />
     <MESSAGE value="Task : Created the like button and added it to the answer box" />
     <MESSAGE value="task : modified controller and route for the like button" />
-    <option name="LAST_COMMIT_MESSAGE" value="task : modified controller and route for the like button" />
+    <MESSAGE value="Fix: corrected a mistake in the route (linked the correct public function" />
+    <MESSAGE value="Task: added function to change the button from like to unlike in real time. Removed the count of likes (not needed for single user)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task: added function to change the button from like to unlike in real time. Removed the count of likes (not needed for single user)" />
   </component>
 </project>
