@@ -125,4 +125,17 @@ class AnswerController extends Controller
         return redirect()->route('questions.show',['question_id' => $question])->with('message', 'Deleted');
 
     }
+    public function like(Request $request, $id)
+    {
+        $action = $request->get('action');
+        switch ($action) {
+            case 'Like':
+                Answer::where('id', $id)->increment('likes_count');
+                break;
+            case 'Unlike':
+                Answer::where('id', $id)->decrement('likes_count');
+                break;
+        }
+        return '';
+    }
 }

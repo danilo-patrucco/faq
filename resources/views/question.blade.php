@@ -42,7 +42,7 @@
                                        href="{{ route('answers.show', ['question_id'=> $question->id,'answer_id' => $answer->id]) }}">
                                         View
                                     </a>
-                                        <button onclick="actOnChirp(event);" data-id="{{ $answer->id }}">Like</button>
+                                        <button onclick="actOnPushB(event);" data-id="{{ $answer->id }}">Like</button>
                                         <span id="likes-count-{{ $answer->id }}">{{ $answer->likes_count }}</span>
 
                                 </div>

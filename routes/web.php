@@ -33,6 +33,7 @@ Route::get('/questions/{question_id}/answers/{answer_id}/edit', 'AnswerControlle
 Route::post('/questions/{question_id}/answers/', 'AnswerController@store')->name('answers.store');
 Route::patch('/questions/{question_id}/answer/{answer_id}', 'AnswerController@update')->name('answers.update');
 Route::delete('/questions/{question_id}/answer/{answer_id}', 'AnswerController@destroy')->name('answers.destroy');
+Route::post('/questions/{question_id}/answers/{answer_id}', 'AnswerController@like')->name('answers.create');
 
 Route::get('/readme', 'HomeController@readme')->name('readme');
 
