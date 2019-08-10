@@ -4,7 +4,6 @@
     <list default="true" id="b44ba819-057f-42ee-9e93-13e6b0864038" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_01_011635_create_questions_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_08_01_011635_create_questions_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_01_015053_create_answers_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_08_01_015053_create_answers_table.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -209,12 +208,27 @@
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@649821de" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@2fd4ee80" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@1f935ed1" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@649821de" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@47296875" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@6bd32570" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@649821de" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@39c00dbb" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@649821de" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@171c15a0" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@649821de" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@4a04037a" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -242,7 +256,7 @@
       <workItem from="1565055288970" duration="66000" />
       <workItem from="1565055385265" duration="4406000" />
       <workItem from="1565141302677" duration="891000" />
-      <workItem from="1565398380527" duration="1133000" />
+      <workItem from="1565398380527" duration="1451000" />
     </task>
     <task id="LOCAL-00001" summary="Task: Installed laravel setup and finished 1st video">
       <created>1564110944773</created>
@@ -391,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565229241972</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="task : added to the answer and question table the like field to verify if the user likes the post">
+      <created>1565399854657</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1565399854657</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -430,6 +451,7 @@
     <MESSAGE value="Task : Question Edit, delete and add created" />
     <MESSAGE value="Task : added answer form and added delete option to the answer" />
     <MESSAGE value="Task: added redirect to raw readme on Github" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task: added redirect to raw readme on Github" />
+    <MESSAGE value="task : added to the answer and question table the like field to verify if the user likes the post" />
+    <option name="LAST_COMMIT_MESSAGE" value="task : added to the answer and question table the like field to verify if the user likes the post" />
   </component>
 </project>
