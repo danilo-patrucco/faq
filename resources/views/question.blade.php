@@ -38,14 +38,11 @@
                             <div class="card">
                                 <div class="card-body">{{$answer->body}}</div>
                                 <div class="card-footer">
-
                                     <a class="btn btn-primary float-right"
                                        href="{{ route('answers.show', ['question_id'=> $question->id,'answer_id' => $answer->id]) }}">
                                         View
                                     </a>
-                                        <button onclick="actOnPushB(event);" data-id="{{ $answer->id }}">Like</button>
-
-
+                                        <button class="like-button" data-id="{{ $answer->id }}">@if($answer->likes_count>0) {{'Unlike'}} @else {{'Like'}} @endif</button>
                                 </div>
                             </div>
                         @empty
@@ -65,22 +62,17 @@
 @endsection
 
 @section('js')
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script>
 
-        var toggleButtonText = {
-            Like: function(button) {
-                button.textContent = "Unlike";
-            },
+        $(document).ready(function() {
+            $('.like-button').click(function () {
+                var status = $(this).html()=='Like' ? 0 : 1;
+                $(this).html()=='Like' ? $(this).html('Unlike') : $(this).html('Like');
 
-            Unlike: function(button) {
-                button.textContent = "Like";
-            }
-        };
+            });
 
-        var actOnPushB = function (event) {
-            var action = event.target.textContent;
-            toggleButtonText[action](event.target);
-        };
+        });
 
     </script>
 @endsection
