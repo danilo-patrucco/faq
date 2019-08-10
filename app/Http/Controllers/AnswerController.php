@@ -111,6 +111,18 @@ class AnswerController extends Controller
 
     }
 
+    public function toggleLike(Request $request){
+
+        $data = $request->all();
+
+        $answer = Answer::find($data['answer_id']);
+
+        $answer->likes_count = $data['status'];
+
+        $answer->save();
+
+    }
+
     /**
      * Remove the specified resource from storage.
      *

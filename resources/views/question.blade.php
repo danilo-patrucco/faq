@@ -42,7 +42,7 @@
                                        href="{{ route('answers.show', ['question_id'=> $question->id,'answer_id' => $answer->id]) }}">
                                         View
                                     </a>
-                                        <button class="like-button" data-id="{{ $answer->id }}">@if($answer->likes_count>0) {{'Unlike'}} @else {{'Like'}} @endif</button>
+                                        <button class="like-button" data-status="{{$answer->likes_count}}" data-id="{{ $answer->id }}">@if($answer->likes_count>0){{'Unlike'}}@else{{'Like'}}@endif</button>
                                 </div>
                             </div>
                         @empty
@@ -66,9 +66,45 @@
     <script>
 
         $(document).ready(function() {
+
+            $.ajaxSetup({
+
+                headers: {
+
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+
+                }
+
+            });
+
+/* selector is like CSS selectors, it recalls the class automatically when it finds it in the code */
+/*
+* <div id="content"></div> --> $('#content')
+* <input data-id="4" /> --> $('input[data-id="4"]')
+*
+* */
             $('.like-button').click(function () {
-                var status = $(this).html()=='Like' ? 0 : 1;
-                $(this).html()=='Like' ? $(this).html('Unlike') : $(this).html('Like');
+
+                var button = $(this);
+                var status = parseInt(button.attr('data-status'));
+
+                if(status==0) {
+                    button.html('Unlike');
+                    status = 1;
+                }
+                else{
+                    button.html('Like');
+                    status = 0;
+                }
+
+                $.ajax({
+                   type: 'post',
+                   url: 'toggleLike',
+                   data: {answer_id:button.attr('data-id'), status:status},
+                   success: function(data){
+                       button.attr('data-status', status);
+                   }
+                });
 
             });
 
